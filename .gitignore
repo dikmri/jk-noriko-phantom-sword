@@ -1,0 +1,15 @@
+# 依存とビルド結果
+node_modules/
+build/
+# 変換前の素材・Python の環境・Vite のキャッシュ（数百 MB）
+runtime/
+# 遊んだときと確認のログ
+logs/
+# Blender の確認用の画像と、作業中の候補画像
+blender/preview/
+blender/__pycache__/
+__pycache__/
+assets/
+# 手元の道具の設定
+.claude/
+*.log
